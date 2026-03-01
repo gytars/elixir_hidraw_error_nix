@@ -1,0 +1,75 @@
+# The directory Mix will write compiled artifacts to.
+/_build/
+
+# If you run "mix test --cover", coverage assets end up here.
+/cover/
+
+# The directory Mix downloads your dependencies sources to.
+/deps/
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc/
+
+# Ignore .fetch files in case you like to edit your project deps locally.
+/.fetch
+
+# If the VM crashes, it generates a dump, let's ignore it too.
+erl_crash.dump
+
+# Also ignore archive artifacts (built via "mix archive.build").
+*.ez
+
+# Temporary files, for example, from tests.
+/tmp/
+
+# Ignore package tarball (built via "mix hex.build").
+elixir_hidraw_error_nix-*.tar
+
+# Ignore assets that are produced by build tools.
+/priv/static/assets/
+
+# Ignore digested assets cache.
+/priv/static/cache_manifest.json
+
+# In case you use Node.js/npm, you want to ignore these.
+npm-debug.log
+/assets/node_modules/
+
+# CDLR data repository
+/priv/cldr/
+
+# Files matching config/*.secret.exs pattern contain sensitive
+# data and you should not commit them into version control.
+#
+# Alternatively, you may comment the line below and commit the
+# secrets files as long as you replace their contents by environment
+# variables.
+/config/*.secret.exs
+config/*.env
+.env
+
+/import/
+.srtm_cache/
+
+# Make sure IDE files don't get committed to the repo
+.idea/
+.eclipse/
+.elixir_ls/
+/.project
+.vscode/
+
+# Mac files
+.DS_Store
+
+/priv/plts/*.plt
+/priv/plts/*.plt.hash
+
+# Nix files
+.nix-mix
+.nix-mix
+/.direnv
+.direnv
+/.devenv
+/tzdata/
+/result
+\*_/result_

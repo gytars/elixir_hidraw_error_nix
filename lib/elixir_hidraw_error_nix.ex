@@ -16,7 +16,7 @@ defmodule ElixirHidrawErrorNix do
     :world
   end
 
-  # def enumerate() do
-  #   Hidraw.enumerate()
-  # end
+  def enumerate() do
+    Hidraw.enumerate()
+  end
 end

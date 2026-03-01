@@ -22,7 +22,7 @@ defmodule ElixirHidrawErrorNix.MixProject do
   defp deps do
     [
       {:deps_nix, "~> 2.0", only: :dev},
-      # {:hidraw, "~> 0.2.2"}
+      {:hidraw, "~> 0.2.2"}
     ]
   end
 end
